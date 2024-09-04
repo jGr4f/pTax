@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TaxScan</string>
+    <string name="iniciar_sesión" translatable="false">Iniciar sesión</string>
+    <string name="registrarse" translatable="false">Registrarse</string>
+    <string name="default_web_client_id" translatable="false">976730627117-31dit4or20an6jug54gk25spn1gjn3d5.apps.googleusercontent.com</string>
+</resources>

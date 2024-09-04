@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mask_group"
+    android:orientation="vertical"
+    tools:context="View.StartScreen">
+
+    <Button
+        android:id="@+id/Button_login"
+        android:layout_width="331sp"
+        android:layout_height="56sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500sp"
+        android:background="@drawable/shape_button_login"
+        android:fontFamily="@font/urbanist_semibold"
+        android:gravity="center"
+        android:text="@string/iniciar_sesión"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Button_register"
+        android:layout_width="331sp"
+        android:layout_height="56sp"
+        android:layout_marginHorizontal="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_button_register_white"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/urbanist_semibold"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/registrarse"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

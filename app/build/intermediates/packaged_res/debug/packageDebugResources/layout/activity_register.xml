@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mask_group"
+    android:orientation="vertical"
+    tools:context="View.Register">
+
+    <EditText
+        android:id="@+id/etUsernameR"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:autofillHints="username"
+        android:inputType="text"
+        android:background="@drawable/transparent_field"
+        android:hint="Usuario"
+        android:paddingStart="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etEmailR"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/transparent_field"
+        android:hint="Correo"
+        android:paddingStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etPasswordR"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:background="@drawable/transparent_field"
+        android:hint="Contraseña"
+        android:paddingStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/etPassword2R"
+            android:layout_width="331dp"
+            android:layout_height="56dp"
+            android:autofillHints="password"
+            android:inputType="textPassword"
+            android:background="@drawable/transparent_field"
+            android:hint="Confirmar contraseña"
+            android:paddingStart="15dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Button_registerR"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_button_login"
+        android:fontFamily="@font/urbanist_semibold"
+        android:gravity="center"
+        android:text="Registrarse"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/continuew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O continuar con"
+        android:fontFamily="@font/urbanist_semibold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <Button
+            android:id="@+id/Button_connectGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/google_button_login"
+            android:gravity="center"
+            android:fontFamily="@font/urbanist_semibold"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:contentDescription="Botón Google"/>
+
+        <Button
+            android:id="@+id/Button_connectFb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:background="@drawable/facebook_button_login"
+            android:fontFamily="@font/urbanist_semibold"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:contentDescription="Botón Facebook"/>
+    </LinearLayout>
+</LinearLayout>

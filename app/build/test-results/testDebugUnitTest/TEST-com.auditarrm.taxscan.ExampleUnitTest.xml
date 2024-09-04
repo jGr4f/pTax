@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.auditarrm.taxscan.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-06T05:05:21" hostname="DESKTOP-BN9VBS2" time="0.003">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.auditarrm.taxscan.ExampleUnitTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

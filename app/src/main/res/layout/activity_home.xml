@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="View.Home">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Buscar facturas"
+                android:layout_margin="16dp"
+                android:drawableStart="@drawable/search_icon"
+                android:background="@drawable/search_bar_fill"
+                android:ems="10"
+                android:inputType="text"
+                android:drawablePadding="5dp"
+                android:paddingStart="15dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Facturas_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:minHeight="575dp"
+                android:maxHeight="575dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_bar_fill"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/Button_opencam"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/cameraicon"
+        android:contentDescription="Botón añadir factura"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/Button_addfact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Button_addfact"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/add_facturaf"
+        android:contentDescription="Botón añadir factura"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/holo_green_light"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/Button_homee"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="150dp"
+            android:background="@drawable/baseline_document_scanner_24"
+            android:contentDescription="Botón añadir factura" />
+
+        <Button
+            android:id="@+id/Button_ajustes"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/personicon"
+            android:contentDescription="Botón añadir factura"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

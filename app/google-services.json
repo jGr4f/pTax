@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976730627117",
+    "project_id": "taxscan-2fe08",
+    "storage_bucket": "taxscan-2fe08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976730627117:android:4c1575627dece4559b2ca4",
+        "android_client_info": {
+          "package_name": "com.auditarrm.taxscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976730627117-31dit4or20an6jug54gk25spn1gjn3d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.auditarrm.taxscan",
+            "certificate_hash": "2484793a6e03acd9a93c4580e8d982282d98c6c8"
+          }
+        },
+        {
+          "client_id": "976730627117-bethlmmbo6cv6v3135feigkj3f65722m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdIOcwp-Rcgv5j5Lwlagrl-sTFZWAVh24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976730627117-bethlmmbo6cv6v3135feigkj3f65722m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
