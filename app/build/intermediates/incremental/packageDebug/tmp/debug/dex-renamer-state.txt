@@ -1,4 +1,4 @@
-#Wed Sep 04 22:42:29 COT 2024
+#Wed Sep 04 23:25:28 COT 2024
 base.0=C\:\\Users\\diego\\Downloads\\TaxScan3\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\diego\\Downloads\\TaxScan3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=C\:\\Users\\diego\\Downloads\\TaxScan3\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes6.dex
