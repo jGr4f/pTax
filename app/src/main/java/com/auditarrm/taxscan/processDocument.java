@@ -179,7 +179,8 @@ public class processDocument {
                 Intent intent = new Intent(context, PDFViewer.class);
                 intentEscanear.putExtra("pdfUri", pdfEscaneado.toString());
                 intent.putStringArrayListExtra("scannedData", new ArrayList<>(scannedData));
-                context.startActivity(intentEscanear);
+                context.startActivity(intent);
+                Log.i("depuracion", scannedData.get(0));
 
             } catch (IOException e) {
                 Log.e("depuracion", "Error al cargar las credenciales: " + e.getMessage(), e);

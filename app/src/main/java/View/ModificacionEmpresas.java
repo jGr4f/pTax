@@ -1,11 +1,13 @@
 package View;
 
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -46,8 +48,8 @@ public class ModificacionEmpresas extends AppCompatActivity {
         if (empresa != null) {
             fieldNombre.setText(empresa.getNombreEmpresa());
             fieldNIT.setText(empresa.getNitEmpresa());
-            fieldDirec.setText(empresa.getDireccionEmpresa());
-            fieldTel.setText(empresa.getNumeroTelEmpresa());
+            fieldDirec.setText(empresa.getDirecEmpresa());
+            fieldTel.setText(empresa.getNumeroTelefonoEmpres());
             fieldCor.setText(empresa.getEmailEmpresa());
             lID.setText(String.valueOf(empresa.getIdEmpresa()));
         } else {
@@ -56,40 +58,31 @@ public class ModificacionEmpresas extends AppCompatActivity {
         btnModificar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Empresa empresaMod = new Empresa(fieldNombre, fieldNIT, fieldDirec, fieldTel, fieldCor);
-                empresaMod.setIdEmpresa(empresa.getIdEmpresa());
-                empresaMod.confirmacionMod(ModificacionEmpresas.this, empresaMod, fieldNombre, fieldNIT, fieldDirec, fieldTel, fieldCor);
+                if(empresaMod.validarCamposVacios(fieldNombre, fieldNIT, fieldDirec, fieldTel, fieldCor)){
+                    empresaMod.setIdEmpresa(empresa.getIdEmpresa());
+                    empresaMod.confirmacionMod(ModificacionEmpresas.this, empresaMod);
+
+
+
+                }
+                else{
+                    Toast.makeText(ModificacionEmpresas.this, "Por favor complete todos los campos. ", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
         btnEliminar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                empresa.confirmacionEliminacion(ModificacionEmpresas.this, empresa, fieldNombre, fieldNIT, fieldDirec, fieldTel, fieldCor);
+                empresa.confirmacionEliminacion(ModificacionEmpresas.this, empresa);
+
             }
         });
 
 
 
-
-        /*botonRegistrar = findViewById(R.id.botonRegistrar);
-        listaEmpresas = findViewById(R.id.listaEmpresas);
-
-        botonRegistrar.setOnClickListener(view -> {
-            Intent intent = new Intent(EmpresasRegistradas.this , RegistroEmpresas.class);
-            startActivity(intent);
-        });
-        FirebaseControlador db = new FirebaseControlador();
-        db.inicializarFirebase(EmpresasRegistradas.this);
-        db.listarDatos("Empresas",EmpresasRegistradas.this, listaEmpresas);
-
-        listaEmpresas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                empresaSelec = (Empresa) adapterView.getItemAtPosition(i);
-                Intent intent = new Intent(EmpresasRegistradas.this, ModificacionEmpresas.class);
-                startActivity(intent);
-            }
-        });*/
 
     }
 

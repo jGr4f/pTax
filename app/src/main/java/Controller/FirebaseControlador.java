@@ -1,13 +1,10 @@
 package Controller;
 
 import android.content.Context;
-
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import androidx.annotation.NonNull;
-
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -16,12 +13,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-
 import java.util.ArrayList;
 import java.util.List;
-
-
 import Model.Empresa;
 
 public class FirebaseControlador {
@@ -38,9 +31,6 @@ public class FirebaseControlador {
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference= firebaseDatabase.getReference();
         currentUser = mAuth.getCurrentUser();
-
-
-
 
     }
     public void enviarDatos(String principal,int idEm, Empresa empresa){
@@ -66,9 +56,6 @@ public class FirebaseControlador {
                     if (empresa != null) {
                         listIdEmp.add(empresa); // Agregar cada empresa a la lista
                     }
-
-
-
 
                 }
                 if (arrayAdapter == null) {

@@ -35,7 +35,7 @@ public class RegistroEmpresas extends AppCompatActivity {
             public void onClick(View view) {
                 Empresa empresa = new Empresa(campoNombre, campoNIT, campoDir, campoTel, campoEmail);
                 if(empresa.validarCamposVacios(campoNombre, campoNIT, campoDir, campoTel, campoEmail)){
-                    empresa.confirmacionEnvio(RegistroEmpresas.this, empresa, campoNombre, campoNIT, campoDir, campoTel, campoEmail);
+                    empresa.confirmacionEnvio(RegistroEmpresas.this, empresa);
 
 
 
