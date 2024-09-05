@@ -2,6 +2,7 @@ package View;
 
 import android.graphics.Bitmap;
 import android.graphics.pdf.PdfRenderer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
@@ -19,6 +20,8 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 
+import Controller.ArchivosControlador;
+
 public class PDFViewer extends AppCompatActivity {
 
     private ImageView pdfImageView;
@@ -26,12 +29,14 @@ public class PDFViewer extends AppCompatActivity {
     private Button showMenuButton;
     private LinearLayout scannedDataLayout;
     private boolean isMenuVisible = false;
+    private ArchivosControlador archivosControlador1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdfviewer);
 
+        archivosControlador1 = new ArchivosControlador();
         pdfImageView = findViewById(R.id.pdfImageView);
         showMenuButton = findViewById(R.id.showMenuButton);
         scannedDataLayout = findViewById(R.id.scannedDataLayout);
@@ -43,6 +48,12 @@ public class PDFViewer extends AppCompatActivity {
             return;
         }
         ArrayList<String> scannedData = getIntent().getStringArrayListExtra("scannedData");
+
+        if (pdfUrl != null) {
+            Uri PDFsubir = Uri.parse(pdfUrl);
+            archivosControlador1.subirFactura(PDFsubir);
+        }
+
         // Descargar el archivo PDF desde la URL y guardarlo localmente
         pdfFile = new File(getCacheDir(), "example.pdf");
         downloadPdf(pdfUrl, pdfFile);

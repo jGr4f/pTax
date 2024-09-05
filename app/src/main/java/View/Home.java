@@ -53,15 +53,7 @@ public class Home extends AppCompatActivity {
             String location = "us";
             try {
                 imagenFactura = new processDocument(this, projectid, location, processorid, pdfUri, pdfUri, "PDFCamara");
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            } catch (ExecutionException e) {
-                throw new RuntimeException(e);
-            } catch (TimeoutException e) {
-                throw new RuntimeException(e);
-            } catch (DocumentException e) {
+            } catch (Exception e) {
                 throw new RuntimeException(e);
             }
         } else if (pdfEscaneadoCamara != null && pdfEscaneadoCamara.hasExtra("PDFEscaneado")) {
@@ -132,15 +124,19 @@ public class Home extends AppCompatActivity {
 
                             // Procesar el PDF generado
                             Uri nuevoPdf = Uri.fromFile(pdfResultado);
-                            try {
-                                imagenFactura = new processDocument(this, projectid, location, processorid, nuevoPdf, nuevoPdf, "PDFImagen");
-                            } catch (IOException | InterruptedException | ExecutionException | TimeoutException | DocumentException e) {
-                                e.printStackTrace();
-                            }
+                            imagenFactura = new processDocument(this, projectid, location, processorid, nuevoPdf, nuevoPdf, "PDFImagen");
                         }
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
+                } catch (DocumentException e) {
+                    throw new RuntimeException(e);
+                } catch (ExecutionException e) {
+                    throw new RuntimeException(e);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                } catch (TimeoutException e) {
+                    throw new RuntimeException(e);
                 }
             } else if (mimeType != null && mimeType.equals("application/pdf")) {
                 try (InputStream inputStream = getContentResolver().openInputStream(image_url)) {
@@ -151,14 +147,18 @@ public class Home extends AppCompatActivity {
                         pdDocument.close();
 
                         Uri nuevoPdf = Uri.fromFile(pdfResultado);
-                        try {
-                            imagenFactura = new processDocument(this, projectid, location, processorid, nuevoPdf, nuevoPdf, "PDFArchivos");
-                        } catch (IOException | InterruptedException | ExecutionException | TimeoutException | DocumentException e) {
-                            e.printStackTrace();
-                        }
+                        imagenFactura = new processDocument(this, projectid, location, processorid, nuevoPdf, nuevoPdf, "PDFArchivos");
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
+                } catch (DocumentException e) {
+                    throw new RuntimeException(e);
+                } catch (ExecutionException e) {
+                    throw new RuntimeException(e);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                } catch (TimeoutException e) {
+                    throw new RuntimeException(e);
                 }
             }
             super.onActivityResult(requestCode, resultCode, data);
