@@ -30,12 +30,14 @@ import android.net.Uri;
 import android.util.Log;
 import Controller.ArchivosControlador;
 import View.Home;
+import View.PDFViewer;
 
 public class processDocument {
 
     ArchivosControlador archivosControlador;
     private Context context;
     String tipoArchivo;
+    private List<String> scannedData = new ArrayList<>();
 
     public processDocument(Context context, String projectId, String location, String processorId, Uri filePath, Uri imgpath, String tipoArchivo)
             throws IOException, InterruptedException, ExecutionException, TimeoutException, DocumentException {
@@ -50,7 +52,7 @@ public class processDocument {
             try {
                 File pdfFile = null;
                 //Se cargan las credenciales de la cuenta de servicio mediante un archivo .json
-                InputStream credentialsStream = context.getAssets().open("organic-edge-430816-h1-e3d32a8a0be1.json");
+                InputStream credentialsStream = context.getAssets().open("organic-edge-430816-h1-cf88a6b9b903.json");
                 GoogleCredentials credentials = GoogleCredentials.
                         fromStream(credentialsStream).createScoped("https://www.googleapis.com/auth/cloud-platform");
                 Log.i("depuracion", "credenciales obtenidas");
@@ -68,7 +70,7 @@ public class processDocument {
                     // You must create new processors in the Cloud Console first
                     String name = String.format("projects/%s/locations/%s/processors/%s", projectId, location, processorId);
                     Log.i("depuracion","Cliente creado");
-
+                    scannedData.clear();
                     InputStream fileInputStream = getContentResolverInputStream(filePath);
                     if (fileInputStream == null) {
                         Log.e("depuracion", "No se pudo obtener el InputStream del archivo.");
@@ -94,6 +96,7 @@ public class processDocument {
 
                             Log.i("factura", entity.getProperties(x).getType() + ": " + entity.getProperties(x).getMentionText()
                                     + "Posicion: " + entity.getProperties(x).getPageAnchor().getPageRefs(0).getBoundingPoly());
+                            scannedData.add(entity.getProperties(x).getType() + ": " + entity.getProperties(x).getMentionText());
                             float x1 = entity.getProperties(x).getPageAnchor().getPageRefs(0).getBoundingPoly().getNormalizedVertices(0).getX();
                             float y1 = entity.getProperties(x).getPageAnchor().getPageRefs(0).getBoundingPoly().getNormalizedVertices(0).getY();
                             float x2 = entity.getProperties(x).getPageAnchor().getPageRefs(0).getBoundingPoly().getNormalizedVertices(1).getX();
@@ -173,7 +176,11 @@ public class processDocument {
                 Uri pdfEscaneado = Uri.fromFile(pdfFile);
                 Intent intentEscanear = new Intent(context, Home.class);
                 intentEscanear.putExtra("PDFEscaneado", pdfEscaneado.toString());
-                context.startActivity(intentEscanear);
+
+                /*Intent intent = new Intent(context, PDFViewer.class);
+                intent.putStringArrayListExtra("scannedData", new ArrayList<>(scannedData));
+                context.startActivity(intent);
+                //context.startActivity(intentEscanear);*/
 
             } catch (IOException e) {
                 Log.e("depuracion", "Error al cargar las credenciales: " + e.getMessage(), e);

@@ -3596,6 +3596,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scannedDataLayout
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3621,6 +3622,7 @@ id sharedValueUnset
 id shortcut
 id showCustom
 id showHome
+id showMenuButton
 id showTitle
 id sin
 id skipCollapsed
@@ -4014,6 +4016,7 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

@@ -9,4 +9,29 @@
         android:layout_height="match_parent"
         android:scaleType="fitCenter"
         android:contentDescription="Vista PDF" />
+
+    <!-- Botón para desplegar el menú -->
+    <Button
+        android:id="@+id/showMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Datos Escaneados"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Layout para el menú desplegable -->
+    <LinearLayout
+        android:id="@+id/scannedDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:layout_above="@id/showMenuButton"
+        android:visibility="gone">
+
+        <!-- Aquí agregarás TextViews dinámicamente desde el código -->
+    </LinearLayout>
+
 </RelativeLayout>

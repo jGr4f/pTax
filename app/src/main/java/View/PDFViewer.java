@@ -5,7 +5,11 @@ import android.graphics.pdf.PdfRenderer;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.auditarrm.taxscan.R;
 import java.io.File;
@@ -13,11 +17,15 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.util.ArrayList;
 
 public class PDFViewer extends AppCompatActivity {
 
     private ImageView pdfImageView;
     private File pdfFile;
+    private Button showMenuButton;
+    private LinearLayout scannedDataLayout;
+    private boolean isMenuVisible = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +33,8 @@ public class PDFViewer extends AppCompatActivity {
         setContentView(R.layout.activity_pdfviewer);
 
         pdfImageView = findViewById(R.id.pdfImageView);
+        showMenuButton = findViewById(R.id.showMenuButton);
+        scannedDataLayout = findViewById(R.id.scannedDataLayout);
 
         // Obtener la URI del PDF desde el Intent
         String pdfUrl = getIntent().getStringExtra("pdfUri");
@@ -32,13 +42,38 @@ public class PDFViewer extends AppCompatActivity {
             Log.e("depuracion", "No PDF URL provided");
             return;
         }
-
+        ArrayList<String> scannedData = getIntent().getStringArrayListExtra("scannedData");
         // Descargar el archivo PDF desde la URL y guardarlo localmente
         pdfFile = new File(getCacheDir(), "example.pdf");
         downloadPdf(pdfUrl, pdfFile);
 
         // Mostrar la primera página del PDF
         showPdfPage(0);
+
+        showMenuButton.setOnClickListener(view -> {
+            if (isMenuVisible) {
+                scannedDataLayout.setVisibility(android.view.View.GONE);
+                showMenuButton.setText("Mostrar Datos Escaneados");
+            } else {
+                showMenuButton.setText("Ocultar Datos Escaneados");
+                populateScannedData(scannedData);
+                scannedDataLayout.setVisibility(View.VISIBLE);
+            }
+            isMenuVisible = !isMenuVisible;
+        });
+    }
+
+    private void populateScannedData(ArrayList<String> scannedData) {
+        scannedDataLayout.removeAllViews();  // Limpiar el layout
+
+        if (scannedData != null) {
+            for (String data : scannedData) {
+                TextView textView = new TextView(this);
+                textView.setText(data);
+                textView.setPadding(16, 8, 16, 8);
+                scannedDataLayout.addView(textView);
+            }
+        }
     }
 
     //Descarga el pdf para mostrarlo cuando se le de click
@@ -54,7 +89,6 @@ public class PDFViewer extends AppCompatActivity {
                 while ((bytesRead = inputStream.read(buffer)) != -1) {
                     outputStream.write(buffer, 0, bytesRead);
                 }
-
                 runOnUiThread(() -> {
                     Log.d("depuracion", "PDF successfully downloaded to: " + outputFile.getAbsolutePath());
                     showPdfPage(0); // Show the PDF after download

@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "976730627117",
+    "firebase_url": "https://taxscan-2fe08-default-rtdb.firebaseio.com",
     "project_id": "taxscan-2fe08",
     "storage_bucket": "taxscan-2fe08.appspot.com"
   },
@@ -19,6 +20,22 @@
           "android_info": {
             "package_name": "com.auditarrm.taxscan",
             "certificate_hash": "2484793a6e03acd9a93c4580e8d982282d98c6c8"
+          }
+        },
+        {
+          "client_id": "976730627117-4iloh3vjd6t0n7mfenhae0kh7rb692c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.auditarrm.taxscan",
+            "certificate_hash": "37728148c05d511c08180ce8f32d7a21270f7421"
+          }
+        },
+        {
+          "client_id": "976730627117-aoanu9tm0gp061rt05toju47ncongltf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.auditarrm.taxscan",
+            "certificate_hash": "6841527eee030c423f2ef5857123c7a26a895f2a"
           }
         },
         {
