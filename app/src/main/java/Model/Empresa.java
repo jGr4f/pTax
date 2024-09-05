@@ -1,72 +1,206 @@
 package Model;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.widget.EditText;
+import android.widget.Toast;
+
+
+import java.io.Serializable;
 import java.util.List;
 
-public class Empresa {
-    private String idEmpresa;                   // ID único de la empresa
+import Controller.FirebaseControlador;
+
+
+public class Empresa implements Serializable {
+    private int idEmpresa;                   // ID único de la empresa
     private String nombreEmpresa;                 // Nombre de la empresa
-    private String direccionEmpresa;              // Dirección de la empresa
-    private String numeroTelEmpresa;          // Número de teléfono de la empresa
+    private String direcEmpresa;              // Dirección de la empresa
+    private String nTelEmpresa;          // Número de teléfono de la empresa
     private String emailEmpresa;                // Email de contacto de la empresa
+    private String nitEmpresa;
     private List<String> facturasIDs;     // Lista de IDs de facturas asociadas a esta empresa
 
     // Constructor vacío (necesario para Firebase)
     public Empresa() {}
 
-    public Empresa(String idEmpresa, String nombreEmpresa, String direccionEmpresa, String numeroTelEmpresa, String emailEmpresa, List<String> facturasIDs) {
-        this.idEmpresa = idEmpresa;
-        this.nombreEmpresa = nombreEmpresa;
-        this.direccionEmpresa = direccionEmpresa;
-        this.numeroTelEmpresa = numeroTelEmpresa;
-        this.emailEmpresa = emailEmpresa;
-        this.facturasIDs = facturasIDs;
+    public Empresa(EditText nomEmpresa,EditText niEmpresa, EditText dirEmpresa, EditText numEmpresa, EditText emEmpresa){
+        this.idEmpresa = (int) (Math.random() * 10000);
+        this.nombreEmpresa = nomEmpresa.getText().toString();
+        this.nitEmpresa = niEmpresa.getText().toString();
+        this.direcEmpresa = dirEmpresa.getText().toString();
+        this.nTelEmpresa = numEmpresa.getText().toString();
+        this.emailEmpresa = emEmpresa.getText().toString();
+
     }
 
-    public String getIdEmpresa() {
+    public void limpiarCampos(EditText... campos){
+        for (EditText campo: campos){
+            campo.setText("");
+        }
+    }
+    public boolean validarCamposVacios(EditText... campos) {
+        for (EditText campo : campos) {
+            String texto = campo.getText().toString().trim();
+            if (texto.isEmpty()) {
+                campo.setError("No pueden haber campos vacios. ");
+                return false;
+            }
+        }
+        return true;
+    }
+    public void confirmacionEnvio(Context contexto, Empresa empresa, EditText... campos) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(contexto);
+        builder.setTitle("Confirmación");
+        builder.setMessage("¿Estás seguro de que quieres enviar los datos?");
+
+        // Botón de confirmación
+        builder.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                FirebaseControlador db = new FirebaseControlador();
+                db.inicializarFirebase(contexto);
+                db.enviarDatos("Empresas", empresa.getIdEmpresa(), empresa);
+
+                Toast.makeText(contexto, "Empresa registrada correctamente. ", Toast.LENGTH_SHORT).show();
+                limpiarCampos(campos);
+
+
+
+                // El usuario confirmó, proceder con el envío de datos
+            }
+        });
+
+        // Botón de cancelación
+        builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // El usuario canceló, no hacer nada
+                dialog.dismiss();
+            }
+        });
+
+        // Mostrar el diálogo
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+    public void confirmacionMod(Context contexto, Empresa empresa, EditText... campos) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(contexto);
+        builder.setTitle("Confirmación");
+        builder.setMessage("¿Estás seguro de que quieres modificar los datos?");
+
+        // Botón de confirmación
+        builder.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                FirebaseControlador db = new FirebaseControlador();
+                db.inicializarFirebase(contexto);
+                db.enviarDatos("Empresas", empresa.getIdEmpresa(), empresa);
+
+                Toast.makeText(contexto, "Empresa modificada correctamente. ", Toast.LENGTH_SHORT).show();
+                limpiarCampos(campos);
+
+
+
+                // El usuario confirmó, proceder con el envío de datos
+            }
+        });
+
+        // Botón de cancelación
+        builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // El usuario canceló, no hacer nada
+                dialog.dismiss();
+            }
+        });
+
+        // Mostrar el diálogo
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+    public void confirmacionEliminacion(Context contexto, Empresa empresa, EditText... campos) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(contexto);
+        builder.setTitle("Confirmación");
+        builder.setMessage("¿Estás seguro de que quieres eliminar esta empresa de la base de datos?");
+
+        // Botón de confirmación
+        builder.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                FirebaseControlador db = new FirebaseControlador();
+                db.inicializarFirebase(contexto);
+                db.eliminarDatos("Empresas", empresa.getIdEmpresa(), empresa);
+
+                Toast.makeText(contexto, "Empresa eliminada de la base. ", Toast.LENGTH_SHORT).show();
+                limpiarCampos(campos);
+
+
+
+                // El usuario confirmó, proceder con el envío de datos
+            }
+        });
+
+        // Botón de cancelación
+        builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // El usuario canceló, no hacer nada
+                dialog.dismiss();
+            }
+        });
+
+        // Mostrar el diálogo
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+
+
+    public int getIdEmpresa() {
         return idEmpresa;
     }
 
-    public void setIdEmpresa(String idEmpresa) {
+    public void setIdEmpresa(int idEmpresa) {
         this.idEmpresa = idEmpresa;
     }
+
+
+
+
+    public String getDireccionEmpresa() {
+        return direcEmpresa;
+    }
+
+
 
     public String getNombreEmpresa() {
         return nombreEmpresa;
     }
 
-    public void setNombreEmpresa(String nombreEmpresa) {
-        this.nombreEmpresa = nombreEmpresa;
+    public String getNitEmpresa() {
+        return nitEmpresa;
     }
 
-    public String getDireccionEmpresa() {
-        return direccionEmpresa;
-    }
 
-    public void setDireccionEmpresa(String direccionEmpresa) {
-        this.direccionEmpresa = direccionEmpresa;
-    }
 
     public String getNumeroTelEmpresa() {
-        return numeroTelEmpresa;
+        return nTelEmpresa;
     }
 
-    public void setNumeroTelEmpresa(String numeroTelEmpresa) {
-        this.numeroTelEmpresa = numeroTelEmpresa;
-    }
+
 
     public String getEmailEmpresa() {
         return emailEmpresa;
     }
 
-    public void setEmailEmpresa(String emailEmpresa) {
-        this.emailEmpresa = emailEmpresa;
-    }
 
-    public List<String> getFacturasIDs() {
-        return facturasIDs;
-    }
 
-    public void setFacturasIDs(List<String> facturasIDs) {
-        this.facturasIDs = facturasIDs;
+
+
+    @Override
+    public String toString(){
+        return nombreEmpresa;
     }
 }

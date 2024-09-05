@@ -1,6 +1,6 @@
-com.auditarrm.taxscan.test.app-annotation-experimental-1.4.0-0 C:\Users\diego\.gradle\caches\transforms-4\7a77027694a7d6206fbebb565b1f2601\transformed\annotation-experimental-1.4.0\res
-com.auditarrm.taxscan.test.app-core-1.5.0-1 C:\Users\diego\.gradle\caches\transforms-4\ff6d7ddd6b247b1eeb4fa01b1949a55b\transformed\core-1.5.0\res
-com.auditarrm.taxscan.test.app-androidTest-2 C:\Users\diego\Downloads\TaxScan3\app\build\generated\res\resValues\androidTest\debug
-com.auditarrm.taxscan.test.app-mergeDebugAndroidTestResources-3 C:\Users\diego\Downloads\TaxScan3\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.auditarrm.taxscan.test.app-mergeDebugAndroidTestResources-4 C:\Users\diego\Downloads\TaxScan3\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.auditarrm.taxscan.test.app-debugAndroidTest-5 C:\Users\diego\Downloads\TaxScan3\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.auditarrm.taxscan.test.app-annotation-experimental-1.4.0-0 C:\Users\juanr\.gradle\caches\transforms-4\7a77027694a7d6206fbebb565b1f2601\transformed\annotation-experimental-1.4.0\res
+com.auditarrm.taxscan.test.app-core-1.5.0-1 C:\Users\juanr\.gradle\caches\transforms-4\ff6d7ddd6b247b1eeb4fa01b1949a55b\transformed\core-1.5.0\res
+com.auditarrm.taxscan.test.app-androidTest-2 C:\Users\juanr\Documents\TaxScanVF\app\build\generated\res\resValues\androidTest\debug
+com.auditarrm.taxscan.test.app-mergeDebugAndroidTestResources-3 C:\Users\juanr\Documents\TaxScanVF\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.auditarrm.taxscan.test.app-mergeDebugAndroidTestResources-4 C:\Users\juanr\Documents\TaxScanVF\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.auditarrm.taxscan.test.app-debugAndroidTest-5 C:\Users\juanr\Documents\TaxScanVF\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

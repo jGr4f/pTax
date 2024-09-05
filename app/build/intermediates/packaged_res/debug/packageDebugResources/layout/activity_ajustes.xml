@@ -47,6 +47,19 @@
         app:layout_constraintStart_toEndOf="@+id/profile_image"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <Button
+        android:id="@+id/btnEntEmpresas"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/ic_empe"
+        android:contentDescription="Button log out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"

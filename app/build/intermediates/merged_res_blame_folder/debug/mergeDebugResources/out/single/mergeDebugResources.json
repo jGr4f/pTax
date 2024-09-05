@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable-mdpi_ic_empe.png.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/drawable-mdpi/ic_empe.png"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_transparent_field.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/transparent_field.xml"
     },
@@ -8,8 +12,20 @@
         "source": "com.auditarrm.taxscan.app-main-51:/layout/pdf_list_item.xml"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-mdpi_ic_btnemp.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-mdpi/ic_btnemp.webp"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_take_foto_icon.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/take_foto_icon.xml"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable-anydpi_ic_empe.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/drawable-anydpi/ic_empe.xml"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-hdpi_ic_btnemp_round.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-hdpi/ic_btnemp_round.webp"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -24,6 +40,10 @@
         "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_ajustes.xml"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/layout_activity_lempresas.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_lempresas.xml"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/layout_activity_login.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_login.xml"
     },
@@ -36,12 +56,20 @@
         "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xxxhdpi_ic_btnemp.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xxxhdpi/ic_btnemp.webp"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/font_urbanist_medium.ttf.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/font/urbanist_medium.ttf"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_lines_auth.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/lines_auth.xml"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xxxhdpi_ic_btnemp_round.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xxxhdpi/ic_btnemp_round.webp"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_ic_launcher_foreground.xml.flat",
@@ -80,6 +108,10 @@
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/logo_taxscan.xml"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable-hdpi_ic_empe.png.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/drawable-hdpi/ic_empe.png"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_google_button_login.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/google_button_login.xml"
     },
@@ -88,8 +120,16 @@
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/flash_on.xml"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable-xhdpi_ic_empe.png.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/drawable-xhdpi/ic_empe.png"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_logout.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/logout.xml"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/layout_activity_regempresas.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_regempresas.xml"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_mask_group.xml.flat",
@@ -104,6 +144,10 @@
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/baseline_insert_drive_file_24.xml"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-anydpi-v26_ic_btnemp.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-anydpi-v26/ic_btnemp.xml"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/layout_activity_camara_view.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_camara_view.xml"
     },
@@ -116,20 +160,52 @@
         "source": "com.auditarrm.taxscan.app-main-51:/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xhdpi_ic_btnemp_round.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xhdpi/ic_btnemp_round.webp"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xhdpi_ic_btnemp.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xhdpi/ic_btnemp.webp"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-mdpi_ic_btnemp_round.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-mdpi/ic_btnemp_round.webp"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_switch_camera.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/drawable/switch_camera.xml"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_ic_btnemp_foreground.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/drawable/ic_btnemp_foreground.xml"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-anydpi-v26_ic_btnemp_round.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-anydpi-v26/ic_btnemp_round.xml"
+    },
+    {
         "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xxhdpi_ic_btnemp.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xxhdpi/ic_btnemp.webp"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/layout_activity_modificacion.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_modificacion.xml"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable-xxhdpi_ic_empe.png.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/drawable-xxhdpi/ic_empe.png"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -142,6 +218,14 @@
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/layout_activity_start_screen.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_start_screen.xml"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xxhdpi_ic_btnemp_round.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-xxhdpi/ic_btnemp_round.webp"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_ic_btnemp_background.xml.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/drawable/ic_btnemp_background.xml"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -182,6 +266,10 @@
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/layout_activity_pdfviewer.xml.flat",
         "source": "com.auditarrm.taxscan.app-main-51:/layout/activity_pdfviewer.xml"
+    },
+    {
+        "merged": "com.auditarrm.taxscan.app-debug-49:/mipmap-hdpi_ic_btnemp.webp.flat",
+        "source": "com.auditarrm.taxscan.app-main-51:/mipmap-hdpi/ic_btnemp.webp"
     },
     {
         "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_user_input_login.xml.flat",

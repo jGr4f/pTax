@@ -1,7 +1,7 @@
-#Wed Aug 28 18:22:29 COT 2024
-base.0=C\:\\Users\\diego\\Downloads\\TaxScan3\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
-base.1=C\:\\Users\\diego\\Downloads\\TaxScan3\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.2=C\:\\Users\\diego\\Downloads\\TaxScan3\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\14\\classes.dex
+#Wed Sep 04 15:58:00 COT 2024
+base.0=C\:\\Users\\juanr\\Documents\\TaxScanVF\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\juanr\\Documents\\TaxScanVF\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\juanr\\Documents\\TaxScanVF\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\14\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=14/classes.dex

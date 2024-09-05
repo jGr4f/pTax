@@ -36,6 +36,15 @@
             android:name="View.Ajustes"
             android:exported="false" />
         <activity
+            android:name="View.EmpresasRegistradas"
+            android:exported="false" />
+        <activity
+            android:name="View.ModificacionEmpresas"
+            android:exported="false" />
+        <activity
+            android:name="View.RegistroEmpresas"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

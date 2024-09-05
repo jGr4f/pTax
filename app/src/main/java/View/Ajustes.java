@@ -27,6 +27,7 @@ public class Ajustes extends AppCompatActivity {
     ImageView photo;
     TextView nombre;
     Button home;
+    Button emp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,14 +44,23 @@ public class Ajustes extends AppCompatActivity {
         // Inicia los elementos de xml
         home = findViewById(R.id.Button_home);
         logout = findViewById(R.id.logout_button);
-        photo = findViewById(R.id.profile_image); // Asumiendo que este es el ID correcto del ImageView en tu XML
-        nombre = findViewById(R.id.username_text); // Asumiendo que este es el ID correcto del TextView en tu XML
+        photo = findViewById(R.id.profile_image);
+        emp = findViewById(R.id.btnEntEmpresas);
+        nombre = findViewById(R.id.username_text);
+
 
         // Botón para ir a la home
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Ajustes.this, Home.class);
+                startActivity(intent);
+            }
+        });
+        emp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Ajustes.this, EmpresasRegistradas.class);
                 startActivity(intent);
             }
         });

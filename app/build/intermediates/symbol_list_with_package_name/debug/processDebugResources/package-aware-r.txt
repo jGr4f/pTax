@@ -2116,6 +2116,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color rojoMeQuieroSuisidarjeje
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -3058,6 +3059,8 @@ drawable google_button_login
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
+drawable ic_btnemp_background
+drawable ic_btnemp_foreground
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -3066,6 +3069,7 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_empe
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3284,6 +3288,10 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id botonEliminar
+id botonEnviar
+id botonModificar
+id botonRegistrar
 id bottom
 id bounce
 id bounceBoth
@@ -3294,13 +3302,24 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnEntEmpresas
 id buttonPanel
 id button_cambiarcamara
 id button_capturefoto
 id button_flashon
+id cDir
+id cEmail
+id cNIT
+id cNombre
+id cTel
 id cache_measures
 id callMeasure
 id camera_preview
+id campoDireccion
+id campoEmail
+id campoNIT
+id campoNombreEmpresa
+id campoTelefono
 id cancel_button
 id carryVelocity
 id center
@@ -3446,6 +3465,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id label1
 id labeled
 id layout
 id left
@@ -3460,6 +3480,7 @@ id listMode
 id list_item
 id list_item_image
 id list_item_title
+id listaEmpresas
 id logout_button
 id m3_side_sheet
 id main
@@ -3686,6 +3707,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textoID
 id time
 id title
 id titleDividerNoCustom
@@ -3848,9 +3870,12 @@ layout abc_tooltip
 layout activity_ajustes
 layout activity_camara_view
 layout activity_home
+layout activity_lempresas
 layout activity_login
 layout activity_main
+layout activity_modificacion
 layout activity_pdfviewer
+layout activity_regempresas
 layout activity_register
 layout activity_start_screen
 layout browser_actions_context_menu_page
@@ -3935,6 +3960,8 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap ic_btnemp
+mipmap ic_btnemp_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

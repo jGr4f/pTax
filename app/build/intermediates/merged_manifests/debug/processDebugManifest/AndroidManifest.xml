@@ -64,6 +64,15 @@
             android:name="View.Ajustes"
             android:exported="false" />
         <activity
+            android:name="View.EmpresasRegistradas"
+            android:exported="false" />
+        <activity
+            android:name="View.ModificacionEmpresas"
+            android:exported="false" />
+        <activity
+            android:name="View.RegistroEmpresas"
+            android:exported="false" />
+        <activity
             android:name="com.auditarrm.taxscan.MainActivity"
             android:exported="false" />
         <activity
@@ -138,6 +147,12 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
