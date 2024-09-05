@@ -52,7 +52,7 @@ public class processDocument {
             try {
                 File pdfFile = null;
                 //Se cargan las credenciales de la cuenta de servicio mediante un archivo .json
-                InputStream credentialsStream = context.getAssets().open("organic-edge-430816-h1-cf88a6b9b903.json");
+                InputStream credentialsStream = context.getAssets().open("organic-edge-430816-h1-abe528f07447.json");
                 GoogleCredentials credentials = GoogleCredentials.
                         fromStream(credentialsStream).createScoped("https://www.googleapis.com/auth/cloud-platform");
                 Log.i("depuracion", "credenciales obtenidas");
@@ -96,6 +96,7 @@ public class processDocument {
 
                             Log.i("factura", entity.getProperties(x).getType() + ": " + entity.getProperties(x).getMentionText()
                                     + "Posicion: " + entity.getProperties(x).getPageAnchor().getPageRefs(0).getBoundingPoly());
+
                             scannedData.add(entity.getProperties(x).getType() + ": " + entity.getProperties(x).getMentionText());
                             float x1 = entity.getProperties(x).getPageAnchor().getPageRefs(0).getBoundingPoly().getNormalizedVertices(0).getX();
                             float y1 = entity.getProperties(x).getPageAnchor().getPageRefs(0).getBoundingPoly().getNormalizedVertices(0).getY();
@@ -174,13 +175,11 @@ public class processDocument {
 
                 //Enviar la factura escaneada a la Home para mostrarla al usuario
                 Uri pdfEscaneado = Uri.fromFile(pdfFile);
-                Intent intentEscanear = new Intent(context, Home.class);
-                intentEscanear.putExtra("PDFEscaneado", pdfEscaneado.toString());
-                context.startActivity(intentEscanear);
-                /*Intent intent = new Intent(context, PDFViewer.class);
+                Intent intentEscanear = new Intent(context, PDFViewer.class);
+                Intent intent = new Intent(context, PDFViewer.class);
+                intentEscanear.putExtra("pdfUri", pdfEscaneado.toString());
                 intent.putStringArrayListExtra("scannedData", new ArrayList<>(scannedData));
-                context.startActivity(intent);
-                */
+                context.startActivity(intentEscanear);
 
             } catch (IOException e) {
                 Log.e("depuracion", "Error al cargar las credenciales: " + e.getMessage(), e);
