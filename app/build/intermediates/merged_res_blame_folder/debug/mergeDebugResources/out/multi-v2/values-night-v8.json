@@ -4,7 +4,7 @@
             "outputFile": "com.auditarrm.taxscan.app-mergeDebugResources-47:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\juanr\\Documents\\TaxScanVF\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\juanr\\Documents\\pTax\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
