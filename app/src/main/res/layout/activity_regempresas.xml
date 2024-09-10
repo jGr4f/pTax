@@ -5,34 +5,55 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#88F4BC"
     tools:context="View.RegistroEmpresas">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="387dp"
+            android:layout_height="82dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rectangle_489" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100sp"
-            android:layout_marginTop="15sp"
+            android:layout_marginTop="16dp"
             android:text="Registrar empresa"
             android:textColor="@color/black"
             android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </LinearLayout>
+
+
+
 
         <TextView
             android:id="@+id/label1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ingresa el nombre de tu empresa: "
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="100sp"
             android:layout_marginStart="20sp"
+            android:layout_marginTop="100sp"
+            android:text="Ingresa el nombre de tu empresa: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
 
@@ -42,34 +63,35 @@
             android:layout_marginStart="20sp"
             android:layout_marginTop="130sp"
             android:ems="10"
-            android:minHeight="48dp"
             android:hint="Nombre de tu empresa"
-            android:textColor="@color/black"
             android:inputType="text"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ingresa el NIT de tu empresa: "
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="190sp"
             android:layout_marginStart="20sp"
+            android:layout_marginTop="190sp"
+            android:text="Ingresa el NIT de tu empresa: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/campoNIT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="48dp"
             android:layout_marginStart="20sp"
             android:layout_marginTop="220sp"
             android:ems="10"
             android:hint="NIT"
             android:inputType="text"
+            android:minHeight="48dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,13 +99,13 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ingresa la direccion asociada: "
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="280sp"
             android:layout_marginStart="20sp"
+            android:layout_marginTop="280sp"
+            android:text="Ingresa la direccion asociada: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/campoDireccion"
@@ -92,33 +114,34 @@
             android:layout_marginStart="20sp"
             android:layout_marginTop="310sp"
             android:ems="10"
-            android:minHeight="48dp"
             android:hint="Cl 100 #71b - 13"
             android:inputType="text"
+            android:minHeight="48dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ingresa el número de teléfono: "
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="370sp"
             android:layout_marginStart="20sp"
+            android:layout_marginTop="370sp"
+            android:text="Ingresa el número de teléfono: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/campoTelefono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20sp"
-            android:minHeight="48dp"
             android:layout_marginTop="400sp"
             android:ems="10"
             android:hint="300 0120304"
             android:inputType="text"
+            android:minHeight="48dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -126,24 +149,24 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ingresa el correo: "
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="470sp"
             android:layout_marginStart="20sp"
+            android:layout_marginTop="470sp"
+            android:text="Ingresa el correo: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/campoEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20sp"
-            android:minHeight="48dp"
             android:layout_marginTop="500sp"
             android:ems="10"
             android:hint="alguien@example.com"
             android:inputType="text"
+            android:minHeight="48dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -151,11 +174,11 @@
             android:id="@+id/botonEnviar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="25sp"
             android:text="Registrar"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginBottom="25sp"
-            android:layout_marginEnd="20sp"/>
+            app:layout_constraintEnd_toEndOf="parent" />
 
 
 

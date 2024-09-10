@@ -5,36 +5,44 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C8F6DE"
     android:orientation="vertical"
     tools:context="View.EmpresasRegistradas">
+
     <Button
         android:id="@+id/botonRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="25sp"
         android:text="Registrar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="25sp"
-        android:layout_marginEnd="10sp"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="55sp"
-            android:layout_marginTop="15sp"
-            android:text="Empresas registradas"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55sp"
+        android:layout_marginTop="15sp"
+        android:text="Empresas registradas"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp">
         <ListView
             android:id="@+id/listaEmpresas"
-            android:layout_marginTop="80sp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-
+            android:layout_width="411dp"
+            android:layout_height="650dp"
+            android:background="#FFFFFF"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="78dp" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

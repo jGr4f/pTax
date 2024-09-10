@@ -3,8 +3,10 @@ local
 color black
 color dark
 color gray_border
+color ic_launcher_background
 color login_button_fill
 color rojoMeQuieroSuisidarjeje
+color verde_mlm
 color white
 drawable add_facturaf
 drawable baseline_document_scanner_24
@@ -14,6 +16,7 @@ drawable facebook_button_login
 drawable flash_off
 drawable flash_on
 drawable google_button_login
+drawable group_3021
 drawable ic_btnemp_background
 drawable ic_btnemp_foreground
 drawable ic_empe
@@ -25,6 +28,7 @@ drawable logout
 drawable mask_group
 drawable personicon
 drawable profilepic
+drawable rectangle_489
 drawable search_bar_fill
 drawable search_icon
 drawable shape_button_login
@@ -79,6 +83,8 @@ id etEmailR
 id etPassword2R
 id etPasswordR
 id etUsernameR
+id imageView2
+id imageView3
 id label1
 id linearLayout
 id list_item_image

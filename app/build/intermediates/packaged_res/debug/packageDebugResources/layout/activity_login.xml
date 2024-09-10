@@ -9,6 +9,14 @@
     android:background="@drawable/mask_group"
     tools:context="View.Login">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/group_3021" />
+
     <EditText
         android:id="@+id/Usuario_edittext"
         android:layout_width="331dp"
@@ -18,7 +26,7 @@
         android:background="@drawable/transparent_field"
         android:hint="Usuario"
         android:paddingStart="15dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="15dp"
         android:layout_gravity="center_horizontal"/>
 
     <RelativeLayout
@@ -119,7 +127,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="70dp">
+        android:layout_marginTop="10dp">
 
         <Button
             android:id="@+id/noTienesCuenta_textview"
@@ -147,4 +155,5 @@
             android:textColor="@android:color/holo_blue_dark"
             android:textSize="15sp" />
     </LinearLayout>
+
 </LinearLayout>

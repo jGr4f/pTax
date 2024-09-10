@@ -1449,6 +1449,7 @@ color foreground_material_light
 color gray_border
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color login_button_fill
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -2129,6 +2130,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color verde_mlm
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -3058,6 +3060,7 @@ drawable flash_on
 drawable google_button_login
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable group_3021
 drawable ic_arrow_back_black_24
 drawable ic_btnemp_background
 drawable ic_btnemp_foreground
@@ -3163,6 +3166,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable personicon
 drawable profilepic
+drawable rectangle_489
 drawable search_bar_fill
 drawable search_icon
 drawable shape_button_login
@@ -3455,6 +3459,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView2
+id imageView3
 id immediateStop
 id included
 id indeterminate

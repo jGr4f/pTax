@@ -11,7 +11,8 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#2BD07A">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,38 +23,37 @@
                 android:id="@+id/search_bar"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:hint="Buscar facturas"
                 android:layout_margin="16dp"
+                android:background="@drawable/search_bar_fill"
                 android:drawableStart="@drawable/search_icon"
-                android:background="@drawable/search_bar_fill"
-                android:ems="10"
-                android:inputType="text"
                 android:drawablePadding="5dp"
-                android:paddingStart="15dp"/>
+                android:ems="10"
+                android:hint="Buscar facturas"
+                android:inputType="text"
+                android:paddingStart="15dp" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/Facturas_list"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:minHeight="575dp"
-                android:maxHeight="575dp"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/search_bar_fill"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-            </androidx.recyclerview.widget.RecyclerView>
+                android:layout_height="match_parent">
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/Facturas_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/search_bar_fill"
+                    android:clipToPadding="false"
+                    android:maxHeight="575dp"
+                    android:minHeight="575dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></androidx.recyclerview.widget.RecyclerView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
 
@@ -90,7 +90,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@android:color/holo_green_light"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -112,7 +111,7 @@
             android:layout_gravity="bottom"
             android:layout_marginStart="20dp"
             android:background="@drawable/personicon"
-            android:contentDescription="Botón añadir factura"/>
+            android:contentDescription="Botón añadir factura" />
 
     </LinearLayout>
 
