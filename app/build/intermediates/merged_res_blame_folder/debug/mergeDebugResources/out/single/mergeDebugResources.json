@@ -4,12 +4,12 @@
         "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\drawable_cameraicon.xml.flat",
-        "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\drawable\\cameraicon.xml"
-    },
-    {
         "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\drawable_cameraicon.xml.flat",
+        "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\drawable\\cameraicon.xml"
     },
     {
         "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\layout_pdf_list_item.xml.flat",
@@ -156,6 +156,10 @@
         "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\layout\\activity_camara_view.xml"
     },
     {
+        "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\drawable_group_3022.xml.flat",
+        "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\drawable\\group_3022.xml"
+    },
+    {
         "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\drawable-xhdpi_ic_empe.png.flat",
         "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\drawable-xhdpi\\ic_empe.png"
     },
@@ -190,10 +194,6 @@
     {
         "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\drawable_switch_camera.xml.flat",
         "source": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-main-51:\\drawable\\switch_camera.xml"
-    },
-    {
-        "merged": "com.auditarrm.taxscan.app-debug-49:/drawable_group_3022.xml.flat",
-        "source": "com.auditarrm.taxscan.app-main-51:/drawable/group_3022.xml"
     },
     {
         "merged": "C:\\Users\\juanr\\.gradle\\daemon\\8.7\\com.auditarrm.taxscan.app-debug-49:\\drawable_flash_off.xml.flat",
