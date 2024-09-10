@@ -17,6 +17,7 @@ drawable flash_off
 drawable flash_on
 drawable google_button_login
 drawable group_3021
+drawable group_3022
 drawable ic_btnemp_background
 drawable ic_btnemp_foreground
 drawable ic_empe
@@ -83,6 +84,7 @@ id etEmailR
 id etPassword2R
 id etPasswordR
 id etUsernameR
+id imageView
 id imageView2
 id imageView3
 id label1

@@ -9,27 +9,27 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-feature
-11-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:5:5-7:36
+11-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:5:5-7:36
 12        android:name="android.hardware.camera"
-12-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:6:9-47
+12-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:6:9-47
 13        android:required="false" />
-13-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:7:9-33
+13-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:7:9-33
 14
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:9:5-81
-15-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:9:22-78
+15-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:9:22-78
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:10:5-65
-16-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:10:22-62
+16-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:10:5-65
+16-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:10:22-62
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:11:5-80
-17-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:11:22-77
+17-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:11:22-77
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:12:5-67
-18-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:12:22-64
+18-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:12:5-67
+18-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:12:22-64
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:13:5-79
-19-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:13:22-76
+19-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:13:22-76
 20
 21    <queries>
 21-->[androidx.camera:camera-extensions:1.3.4] C:\Users\juanr\.gradle\caches\transforms-4\e76b6851716134b78d24210c9a2f8b5e\transformed\camera-extensions-1.3.4\AndroidManifest.xml:22:5-26:15
@@ -72,105 +72,105 @@
 38-->[androidx.core:core:1.13.0] C:\Users\juanr\.gradle\caches\transforms-4\ff06ce395d56ce3604cece037c301257\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 39
 40    <application
-40-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:15:5-65:19
+40-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:15:5-65:19
 41        android:allowBackup="true"
-41-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:16:9-35
+41-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:16:9-35
 42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 42-->[androidx.core:core:1.13.0] C:\Users\juanr\.gradle\caches\transforms-4\ff06ce395d56ce3604cece037c301257\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 43        android:dataExtractionRules="@xml/data_extraction_rules"
-43-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:17:9-65
+43-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:17:9-65
 44        android:debuggable="true"
 45        android:extractNativeLibs="false"
 46        android:fullBackupContent="@xml/backup_rules"
-46-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:18:9-54
+46-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:18:9-54
 47        android:icon="@mipmap/ic_launcher"
-47-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:19:9-43
+47-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:19:9-43
 48        android:label="@string/app_name"
-48-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:20:9-41
+48-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:20:9-41
 49        android:requestLegacyExternalStorage="true"
-49-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:21:9-52
+49-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:21:9-52
 50        android:roundIcon="@mipmap/ic_launcher_round"
-50-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:22:9-54
+50-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:22:9-54
 51        android:supportsRtl="true"
-51-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:23:9-35
+51-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:23:9-35
 52        android:testOnly="true"
 53        android:theme="@style/Theme.TaxScan" >
-53-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:24:9-45
+53-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:24:9-45
 54        <activity
-54-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:26:9-28:40
+54-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:26:9-28:40
 55            android:name="View.PDFViewer"
-55-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:27:13-42
+55-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:27:13-42
 56            android:exported="false" />
-56-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:28:13-37
+56-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:28:13-37
 57        <activity
-57-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:29:9-31:40
+57-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:29:9-31:40
 58            android:name="View.Register"
-58-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:30:13-41
+58-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:30:13-41
 59            android:exported="false" />
-59-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:31:13-37
+59-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:31:13-37
 60        <activity
-60-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:32:9-34:40
+60-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:32:9-34:40
 61            android:name="View.Camara_view"
-61-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:33:13-44
+61-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:33:13-44
 62            android:exported="false" />
-62-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:34:13-37
+62-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:34:13-37
 63        <activity
-63-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:35:9-37:40
+63-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:35:9-37:40
 64            android:name="View.Ajustes"
-64-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:36:13-40
+64-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:36:13-40
 65            android:exported="false" />
-65-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:37:13-37
+65-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:37:13-37
 66        <activity
-66-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:38:9-40:40
+66-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:38:9-40:40
 67            android:name="View.EmpresasRegistradas"
-67-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:39:13-52
+67-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:39:13-52
 68            android:exported="false" />
-68-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:40:13-37
+68-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:40:13-37
 69        <activity
-69-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:41:9-43:40
+69-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:41:9-43:40
 70            android:name="View.ModificacionEmpresas"
-70-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:42:13-53
+70-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:42:13-53
 71            android:exported="false" />
-71-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:43:13-37
+71-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:43:13-37
 72        <activity
-72-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:44:9-46:40
+72-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:44:9-46:40
 73            android:name="View.RegistroEmpresas"
-73-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:45:13-49
+73-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:45:13-49
 74            android:exported="false" />
-74-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:46:13-37
+74-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:46:13-37
 75        <activity
-75-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:47:9-49:40
+75-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:47:9-49:40
 76            android:name="com.auditarrm.taxscan.MainActivity"
-76-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:48:13-41
+76-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:48:13-41
 77            android:exported="false" />
-77-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:49:13-37
+77-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:49:13-37
 78        <activity
-78-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:50:9-52:40
+78-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:50:9-52:40
 79            android:name="View.Login"
-79-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:51:13-38
+79-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:51:13-38
 80            android:exported="false" />
-80-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:52:13-37
+80-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:52:13-37
 81        <activity
-81-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:53:9-55:40
+81-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:53:9-55:40
 82            android:name="View.Home"
-82-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:54:13-37
+82-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:54:13-37
 83            android:exported="false" />
-83-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:55:13-37
+83-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:55:13-37
 84        <activity
-84-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:56:9-64:20
+84-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:56:9-64:20
 85            android:name="View.StartScreen"
-85-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:57:13-44
+85-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:57:13-44
 86            android:exported="true" >
-86-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:58:13-36
+86-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:58:13-36
 87            <intent-filter>
-87-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:59:13-63:29
+87-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:59:13-63:29
 88                <action android:name="android.intent.action.MAIN" />
-88-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:60:17-69
-88-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:60:25-66
+88-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:60:17-69
+88-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:60:25-66
 89
 90                <category android:name="android.intent.category.LAUNCHER" />
-90-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:62:17-77
-90-->C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:62:27-74
+90-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:62:17-77
+90-->C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:62:27-74
 91            </intent-filter>
 92        </activity>
 93

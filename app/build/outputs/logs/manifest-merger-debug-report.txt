@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:2:1-67:12
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:2:1-67:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\juanr\.gradle\caches\transforms-4\e87693f2ff44820fe825641ad4b4f38e\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\juanr\.gradle\caches\transforms-4\b1c06831ad30c2938da68680c24b6bdb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.camera:camera-extensions:1.3.4] C:\Users\juanr\.gradle\caches\transforms-4\e76b6851716134b78d24210c9a2f8b5e\transformed\camera-extensions-1.3.4\AndroidManifest.xml:17:1-34:12
@@ -94,35 +94,35 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\juanr\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\juanr\.gradle\caches\transforms-4\c31acd99f659c3598e0d9f17b54215cc\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\juanr\.gradle\caches\transforms-4\880967803cd233afabd1ff90ea7a1b08\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:5:5-7:36
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:5:5-7:36
 	android:required
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:7:9-33
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:7:9-33
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:6:9-47
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:6:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:10:5-65
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:10:5-65
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:10:22-62
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:10:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\juanr\.gradle\caches\transforms-4\9afe1e874bc077435322aa07e489b7bb\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\juanr\.gradle\caches\transforms-4\9afe1e874bc077435322aa07e489b7bb\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\juanr\.gradle\caches\transforms-4\c389106b64ba987eb4e6b3c3aec5da19\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
@@ -142,9 +142,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\juanr\.gradle\caches\transforms-4\6baf9654fee850767792f67720a6b298\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\juanr\.gradle\caches\transforms-4\6baf9654fee850767792f67720a6b298\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\juanr\.gradle\caches\transforms-4\9afe1e874bc077435322aa07e489b7bb\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\juanr\.gradle\caches\transforms-4\9afe1e874bc077435322aa07e489b7bb\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\juanr\.gradle\caches\transforms-4\c389106b64ba987eb4e6b3c3aec5da19\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:5-79
@@ -164,10 +164,10 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\juanr\.gradle\caches\transforms-4\6baf9654fee850767792f67720a6b298\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\juanr\.gradle\caches\transforms-4\6baf9654fee850767792f67720a6b298\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:15:5-65:19
-INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:15:5-65:19
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:15:5-65:19
+INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:15:5-65:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\juanr\.gradle\caches\transforms-4\e87693f2ff44820fe825641ad4b4f38e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\juanr\.gradle\caches\transforms-4\e87693f2ff44820fe825641ad4b4f38e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\juanr\.gradle\caches\transforms-4\b1c06831ad30c2938da68680c24b6bdb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -245,109 +245,109 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\juanr\.gradle\cach
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\juanr\.gradle\caches\transforms-4\4212cc7bb5a0065a2b649d920b9db5e5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\juanr\.gradle\caches\transforms-4\4212cc7bb5a0065a2b649d920b9db5e5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:21:9-52
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:21:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\juanr\.gradle\caches\transforms-4\ff06ce395d56ce3604cece037c301257\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:20:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:18:9-54
 	android:roundIcon
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:22:9-54
 	tools:targetApi
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:25:9-29
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:25:9-29
 	android:icon
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:24:9-45
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:24:9-45
 	android:dataExtractionRules
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:17:9-65
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:17:9-65
 activity#View.PDFViewer
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:27:13-42
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:27:13-42
 activity#View.Register
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:29:9-31:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:30:13-41
 activity#View.Camara_view
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:32:9-34:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:33:13-44
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:33:13-44
 activity#View.Ajustes
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:35:9-37:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:36:13-40
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:36:13-40
 activity#View.EmpresasRegistradas
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:38:9-40:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:39:13-52
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:39:13-52
 activity#View.ModificacionEmpresas
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:41:9-43:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:42:13-53
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:42:13-53
 activity#View.RegistroEmpresas
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:44:9-46:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:45:13-49
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:45:13-49
 activity#com.auditarrm.taxscan.MainActivity
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:48:13-41
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:48:13-41
 activity#View.Login
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:51:13-38
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:51:13-38
 activity#View.Home
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:54:13-37
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:54:13-37
 activity#View.StartScreen
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:56:9-64:20
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:56:9-64:20
 	android:exported
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:58:13-36
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:58:13-36
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:57:13-44
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:57:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:59:13-63:29
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:59:13-63:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:60:17-69
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:60:25-66
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:62:17-77
+ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml:62:27-74
+		ADDED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml:62:27-74
 uses-sdk
-INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\juanr\.gradle\caches\transforms-4\e87693f2ff44820fe825641ad4b4f38e\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\juanr\.gradle\caches\transforms-4\e87693f2ff44820fe825641ad4b4f38e\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\juanr\.gradle\caches\transforms-4\b1c06831ad30c2938da68680c24b6bdb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -529,9 +529,9 @@ MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\U
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\juanr\.gradle\caches\transforms-4\9afe1e874bc077435322aa07e489b7bb\transformed\firebase-auth-23.0.0\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\juanr\Documents\pTax\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\juanr\Documents\pp\app\src\main\AndroidManifest.xml
 queries
 ADDED from [androidx.camera:camera-extensions:1.3.4] C:\Users\juanr\.gradle\caches\transforms-4\e76b6851716134b78d24210c9a2f8b5e\transformed\camera-extensions-1.3.4\AndroidManifest.xml:22:5-26:15
 intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION

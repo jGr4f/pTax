@@ -3061,6 +3061,7 @@ drawable google_button_login
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable group_3021
+drawable group_3022
 drawable ic_arrow_back_black_24
 drawable ic_btnemp_background
 drawable ic_btnemp_foreground
@@ -3459,6 +3460,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imageView2
 id imageView3
 id immediateStop

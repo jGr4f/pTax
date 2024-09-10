@@ -4,25 +4,6 @@
             "outputFile": "com.auditarrm.taxscan.app-mergeDebugResources-47:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\juanr\\Documents\\pTax\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "316"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "162"
-                    }
-                },
-                {
                     "source": "C:\\Users\\juanr\\.gradle\\caches\\transforms-4\\9f9d26f64955a97ceb3cb712190a86d2\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -54,6 +35,25 @@
                         "startOffsets": "799,874,985,1074,1175,1282,1389,1488,1595,1698,1825,1913,2037,2139,2241,2357,2459,2573,2701,2817,2939,3075,3195,3329,3449,3561,3776,3893,4017,4147,4269,4407,4541,4657",
                         "endColumns": "74,110,88,100,106,106,98,106,102,126,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "869,980,1069,1170,1277,1384,1483,1590,1693,1820,1908,2032,2134,2236,2352,2454,2568,2696,2812,2934,3070,3190,3324,3444,3556,3682,3888,4012,4142,4264,4402,4536,4652,4772"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\juanr\\Documents\\pp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "162"
                     }
                 }
             ]
